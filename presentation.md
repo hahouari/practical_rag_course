@@ -77,7 +77,7 @@ This synergy enhances the effectiveness of AI systems in dynamic and specialized
 
 ### Why not Fine-Tuning?
 
-Fine-tuning is a process of taking a pre-trained model to train it and tweak its parameters to perform better on a specific task.
+Fine-tuning is a process of taking a pre-trained model to train it and tweak its parameters to perform better on a specific task. It is always more time-consuming and more expensive than RAG.
 
 ---
 
@@ -85,8 +85,8 @@ Fine-tuning is a process of taking a pre-trained model to train it and tweak its
 
 | RAG                  |     |     | Fine-Tuning           |
 | -------------------- | --- | --- | --------------------- |
-| Up-to-Date           | ✅  |     | Can still be outdated |
 | No Training          | ✅  |     | Training required     |
+| Up-to-Date           | ✅  |     | Can still be outdated |
 | Easy to Switch Model | ✅  |     | Hard to Switch        |
 | Retrieval Quality    | 👌  | 👌  | Training Quality      |
 | Extra Retrieval Step |     | ✅  | Real-time             |
@@ -117,8 +117,8 @@ Fine-tuning is a process of taking a pre-trained model to train it and tweak its
 
 ### Components of RAG System
 
-- Large Language Model (e.g. OpenAI GPT-3, Anthropic Sonnet, or Google Gemini)
-- Structured Data
+- Large Language Model (e.g. OpenAI GPT-3, Anthropic Sonnet, or Google Gemini) ✅ (Easy)
+- Structured Data 🤔
 - Embedding Model for Semantic Search
 - Database with vector storage & search capabilities
 
